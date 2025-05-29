@@ -1,8 +1,8 @@
 
 {{ config(materialized='view') }}
 
-With table1 as (
+With T1 as (
     Select * 
      from {{source('raj_technologies','STG_CUSTOMERS')}})
     
-Select * from table1
+Select * from T1
