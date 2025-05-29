@@ -1,5 +1,5 @@
 
-{{ config(materialized='table',transient='true') }}
+{{ config(materialized='table') }}
 
 With T1 as (
     Select * 
