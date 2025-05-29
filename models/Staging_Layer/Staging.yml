@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: raj_technologies
+    database: "{{('DBT_PRACTICE')}}"
+    schema: BDT_STAGING_LAYER
+
+    tables:
+      - name: STG_CUSTOMERS
+      - name: STG_PAYMENTS
+      - name: STG_ORDERS
+     
