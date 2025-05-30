@@ -42,4 +42,6 @@ models:
       +materialized: table
     Staging_Layer:
       +materialized: table
+    DBT_INCREMENTAL:
+      +materialized: Table
 

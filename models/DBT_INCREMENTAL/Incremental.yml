@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: Supplier_Master_Data
+    database: "{{('DBT_PRACTICE')}}"
+    schema: DBT_INCREMENTAL
+
+    tables:
+      - name: Suppiler_Master
