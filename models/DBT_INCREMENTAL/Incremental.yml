@@ -6,3 +6,5 @@ sources:
 
     tables:
       - name: Suppiler_Master
+      - name: Supplier_master_append
+      - name: Supplier_master_Insert_delete
